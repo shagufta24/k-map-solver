@@ -18,24 +18,22 @@ The number of variables, variable names and minterm (or maxterm) numbers are tak
 
 **How to run:**
 
->> python kmap.py
+Run: >> python kmap.py
 
 SAMPLE OUTPUT:
---------------------------------------------------
+
 Enter number of inputs (2, 3 or 4): 3
 Enter 'SOP' for Minterms form or 'POS' for Maxterms form: SOP
 Enter Minterms: 2 4 5 7
---------------------------------------------------
-Enter variables with single space (eg:A B C): x y z
---------------------------------------------------
-The K-Map plotted:
-0 0 0 1
-1 1 1 0
---------------------------------------------------
-Simplified boolean expression: xy' + xz + x'yz'
---------------------------------------------------
-Enter 'y' to try again or 'n' to exit: n
---------------------------------------------------
 
-#
-"# k-map-solver" 
+Enter variables with single space (eg:A B C): x y z
+
+The K-Map plotted:
+
+0 0 0 1
+
+1 1 1 0
+
+Simplified boolean expression: xy' + xz + x'yz'
+
+Enter 'y' to try again or 'n' to exit: n
